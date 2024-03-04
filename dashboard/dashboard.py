@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df_day = pd.read_csv("/dashboard/day.csv", delimiter=",")
+df_day = pd.read_csv("/workspaces/dicoding-projek-akhir-python/dashboard/day.csv", delimiter=",")
 
 def daily_rentals():    
     st.header('Daily Rentals')

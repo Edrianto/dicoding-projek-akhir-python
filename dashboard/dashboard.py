@@ -2,8 +2,14 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import path
 
-df_day = pd.read_csv("./workspaces/dicoding-projek-akhir-python/dashboard/day.csv", delimiter=",")
+dir = path.Path(__file__).abspath()
+sys.path.append(dir.parent.parent
+
+path_to_dataset = "./workspaces/dicoding-projek-akhir-python/dashboard/day.csv"
+
+df_day = pd.read_csv(path_to_dataset, delimiter=",")
 
 def daily_rentals():    
     st.header('Daily Rentals')

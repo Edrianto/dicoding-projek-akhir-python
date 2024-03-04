@@ -5,7 +5,7 @@ import seaborn as sns
 import path
 
 dir = path.Path(__file__).abspath()
-sys.path.append(dir.parent.parent
+sys.path.append(dir.parent.parent)
 
 path_to_dataset = "./workspaces/dicoding-projek-akhir-python/dashboard/day.csv"
 

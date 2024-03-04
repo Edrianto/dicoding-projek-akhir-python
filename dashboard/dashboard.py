@@ -52,7 +52,7 @@ def holiday_rentals():
 
     st.pyplot(fig)
 
-df_day = pd.read_csv("/workspaces/dicoding-projek-akhir-python/dashboard/day.csv", delimiter=",")
+df_day = pd.read_csv("day.csv", delimiter=",")
 
 st.title('-= Analisis Bike Sharing Dataset =-')
 daily_rentals()
